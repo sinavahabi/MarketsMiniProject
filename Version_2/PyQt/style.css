@@ -1,0 +1,59 @@
+QTabWidget::tab-bar {
+            alignment: center;
+        }
+
+QTabBar::tab {
+    height: 50px;
+    width: 266px;
+    font-weight: bold;
+    font-family: Century Gothic;
+    font-size: 16px;
+}
+
+QPushButton{
+    color: white;
+    background-color: #5A5A5A;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: beige;
+    padding: 6px;
+    font-family: Roboto;
+    font-size: 14px;
+
+}
+
+QLabel{
+    font-family: Consolas;
+    font-size: 15px;
+}
+
+QTextEdit{
+    color: #00008B;
+    background-color: #A9A9A9;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+QLineEdit{
+    color: #90EE90;
+    height: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+QMessageBox {
+    background-color: orange;
+}
+
+QMessageBox QLabel {
+    font-family: Sitka Text;
+    font-size: 14px;
+    color: black;
+}
+
+QToolTip{
+    font-family: Arial;
+    font-size: 15px;
+}
