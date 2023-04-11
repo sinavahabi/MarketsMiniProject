@@ -5,7 +5,7 @@
     'Version 2.0'
 """
 
-from MarketsMiniProject.Version_2.database import DataBase
+from Version_2.database import DataBase
 from Classes.Colors.color import bcolors
 
 

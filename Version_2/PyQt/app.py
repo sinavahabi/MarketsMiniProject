@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import (QApplication, QTabWidget, QTextEdit, QWidget, QForm
                              QLineEdit, QHBoxLayout, QVBoxLayout, QPushButton, QLabel, QMessageBox)
 from PyQt5.QtGui import QIcon
 # Importing 'DataBase()' classe from database.py module.
-from MarketsMiniProject.Version_2.database import DataBase
+from Version_2.database import DataBase
 
 
 # Instantiating main class 'App()' which inheritance from 'QTabWidget()'.
@@ -189,8 +189,7 @@ class App(QTabWidget):
         quit_btn.clicked.connect(self.close)
 
         # Setting welcome text by 'setHtml()' method.
-        self.welcome_text.setHtml("<font color='red' size='3'><red>'~~~~~~~~~~~~~~ Welcome to Market App ~~~~~~~~~~~~~~~'")
-
+        self.welcome_text.setHtml("<p align=\"center\">~~~Welcome to Market App~~~")
         layout.addRow(vertical)
         self.welcome_tab.setLayout(layout)
 

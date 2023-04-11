@@ -4,8 +4,8 @@
 # pip install jdatetime
 
 # Importing all the essential Packages, API and Counter classes.
-from MarketsMiniProject.Version_2.api import API
-from MarketsMiniProject.Version_2.counter import Counter
+from Version_2.api import API
+from Version_2.counter import Counter
 from pymongo import MongoClient
 import datetime
 import jdatetime

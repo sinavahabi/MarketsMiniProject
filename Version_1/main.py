@@ -5,7 +5,7 @@
     'Version 1.0'
 """
 
-from MarketsMiniProject.Version_1.api import *
+from Version_1.api import *
 from Classes.Colors.color import bcolors
 
 
